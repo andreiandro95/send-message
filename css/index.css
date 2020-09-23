@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* sent a message */
+.message-send{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(123, 201, 227);
+}
+.message-box-send{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(217, 217, 217);
+}
+.inp-message{
+    width: 80%;
+    height: 5vh;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+.submit-message{
+    display: block;
+    padding: .8rem 2rem;
+    color: white;
+    background-color: rgb(162, 190, 232);
+    margin: 2rem auto;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.submit-message:hover{
+    color: black;
+}
+.enter-val{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(250, 155, 155);
+    color: rgb(214, 0, 0);
+    font-size: 1.5rem;
+    border-radius: 20px;
+    display: none;
+}
+.text-last-message{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.text-to-display{
+    font-size: 2rem;
+}
